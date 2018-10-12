@@ -2,7 +2,7 @@
 <OX>
 <OXMENU id="Theme">
     <MAINMENU id="Module">
-        <SUBMENU id="Example Module" cl="linslinexamplemodulemain" />
+        <SUBMENU id="Example Module" cl="gripgateexamplemodulemain" />
     </MAINMENU>
 </OXMENU>
 </OX>

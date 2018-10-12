@@ -1,5 +1,5 @@
 {
-    "name":        "linslin/oxid6-example-module",
+    "name":        "gripgate/gg_oxid6-example-module",
     "description": "",
     "type":        "oxideshop-module",
     "keywords":    [
@@ -8,20 +8,20 @@
         "eShop",
         "Editor"
     ],
-    "homepage":    "https://www.linslin.org",
+    "homepage":    "https://www.gripgate.org",
     "license":     [
         "GPL-3.0",
         "proprietary"
     ],
     "authors":     [
         {
-            "name":  "linslin.org UG | Codes and freedom",
-            "email": "info@linslin.org"
+            "name":  "gripgate.org UG | Codes and freedom",
+            "email": "info@gripgate.org"
         }
     ],
     "extra":       {
         "oxideshop": {
-            "target-directory": "linslin/oxid6-example-module"
+            "target-directory": "gripgate/gg_oxid6-example-module"
         }
     },
     "require":     {
@@ -29,7 +29,7 @@
     },
     "autoload":    {
         "psr-4": {
-            "linslin\\oxid6ExampleModule\\": "../../../source/modules/linslin/oxid6-example-module"
+            "gripgate\\oxid6ExampleModule2\\": "../../../source/modules/gripgate/gg_oxid6-example-module"
         }
     }
 }

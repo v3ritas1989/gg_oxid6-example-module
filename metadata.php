@@ -12,7 +12,7 @@ $sMetadataVersion = '2.0';
  * Module information
  */
 $aModule = array(
-    'id'          => 'linslinExampleModule',
+    'id'          => 'gripgateExampleModule',
     'title'       => array(
         'de' => 'OXID6 example module',
         'en' => 'OXID6 example module',
@@ -21,19 +21,19 @@ $aModule = array(
         'de' => '<h2>OXID6 example module</h2>',
         'en' => '<h2>OXID6 example module</h2>',
     ),
-    'thumbnail'   => 'out/pictures/linslin-org-logo.png',
+    'thumbnail'   => 'out/pictures/gripgate-org-logo.png',
     'version'     => '1.0.0',
-    'author'      => 'linslin.org UG | Codes and freedom',
-    'url'         => 'https://www.linslin.org',
-    'email'       => 'info@linslin.org',
+    'author'      => 'gripgate.org UG | Codes and freedom',
+    'url'         => 'https://www.gripgate.org',
+    'email'       => 'info@gripgate.org',
     'extend'      => array(
     ),
     'controllers'       => array(
-        'linslinexamplemodulemain' => \linslin\oxid6ExampleModule\Controller\Admin\MainController::class,
+        'gripgateexamplemodulemain' => \gripgate\oxid6ExampleModule2\Controller\Admin\MainController::class,
     ),
     'files'       => array(),
     'templates'   => array(
-        'main.tpl' => 'linslin/oxid6-example-module/views/admin/main.tpl'
+        'main.tpl' => 'gripgate/gg_oxid6-example-module/views/admin/main.tpl'
     ),
     'blocks'      => array(),
     'settings'    => array(),
