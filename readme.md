@@ -1,5 +1,6 @@
 ### OXID 6 example module
-A simple and basic OXID 6 module. 
+A simple and basic OXID 6 module.
+This is a clone of linslin/oxid6-example-module
 
 ## Install via composer
 
