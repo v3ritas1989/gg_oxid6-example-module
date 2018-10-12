@@ -4,7 +4,7 @@
  */
 namespace gripgate\oxid6ExampleModule2\Controller\Admin;
 
-/**
+/**test
  * Class gripgateSliderMain.
  */
 class MainController extends \OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController
