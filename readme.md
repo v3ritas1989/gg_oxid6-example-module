@@ -6,9 +6,8 @@ This is a clone of linslin/oxid6-example-module
 
 `composer require vendor/modulename:dev-master`
 
-
-## For developing with a local copy which is not registered
 ## Add to root composer.json
+For developing with a local copy which is not registered
     "repositories": [
         {
             "type": "path",
