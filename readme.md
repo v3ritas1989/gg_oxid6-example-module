@@ -12,9 +12,9 @@ For developing with a local copy which is not registered
     "repositories": [
         {
             "type": "path",
-            "url": "./source/modules/linslin/oxid6-example-module"
+            "url": "./source/modules/vendor/modulename"
         }
     ],
     "require": {
-        "linslin/oxid6-example-module": "dev-master"
+        "vendor/modulename": "dev-master"
     },
