@@ -1,70 +1,35 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
+    "name":        "gripgate/gg_oxid6-example-module",
+    "description": "",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "Editor"
     ],
-    "content-hash": "a112f88aeb2490bb06ae3b0c0fac2dca",
-    "packages": [
+    "homepage":    "https://www.gripgate.org",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
         {
-            "name": "linslin/oxid6-example-module",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/linslin/oxid6-example-module.git",
-                "reference": "09490e72e77215b07144a9f30c0e9595f24cfd00"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linslin/oxid6-example-module/zipball/09490e72e77215b07144a9f30c0e9595f24cfd00",
-                "reference": "09490e72e77215b07144a9f30c0e9595f24cfd00",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "oxideshop-module",
-            "extra": {
-                "oxideshop": {
-                    "target-directory": "linslin/oxid6-example-module"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "linslin\\oxid6ExampleModule\\": "../../../source/modules/linslin/oxid6-example-module"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0",
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "linslin.org UG | Codes and freedom",
-                    "email": "info@linslin.org"
-                }
-            ],
-            "homepage": "https://www.linslin.org",
-            "keywords": [
-                "OXID",
-                "editor",
-                "eshop",
-                "modules"
-            ],
-            "time": "2017-12-06T14:32:19+00:00"
+            "name":  "gripgate.org UG | Codes and freedom",
+            "email": "info@gripgate.org"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "linslin/oxid6-example-module": 20
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "gripgate/gg_oxid6-example-module"
+        }
     },
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": {
+    "require":     {
         "php": ">=5.6"
     },
-    "platform-dev": []
+    "autoload":    {
+        "psr-4": {
+            "gripgate\\oxid6ExampleModule2\\": "../../../source/modules/gripgate/gg_oxid6-example-module"
+        }
+    }
 }
