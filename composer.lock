@@ -1,35 +1,19 @@
 {
-    "name":        "gripgate/gg_oxid6-example-module",
-    "description": "",
-    "type":        "oxideshop-module",
-    "keywords":    [
-        "oxid",
-        "modules",
-        "eShop",
-        "Editor"
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
     ],
-    "homepage":    "https://www.gripgate.org",
-    "license":     [
-        "GPL-3.0",
-        "proprietary"
-    ],
-    "authors":     [
-        {
-            "name":  "gripgate.org UG | Codes and freedom",
-            "email": "info@gripgate.org"
-        }
-    ],
-    "extra":       {
-        "oxideshop": {
-            "target-directory": "gripgate/gg_oxid6-example-module"
-        }
-    },
-    "require":     {
+    "content-hash": "d19c95b22c7fbd1eb42b257cb149e91a",
+    "packages": [],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
         "php": ">=5.6"
     },
-    "autoload":    {
-        "psr-4": {
-            "gripgate\\oxid6ExampleModule2\\": "../../../source/modules/gripgate/gg_oxid6-example-module"
-        }
-    }
+    "platform-dev": []
 }
