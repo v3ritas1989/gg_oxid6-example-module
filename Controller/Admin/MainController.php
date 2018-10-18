@@ -2,10 +2,10 @@
 /**
  * @TODO LICENCE
  */
-namespace gripgate\oxid6ExampleModule2\Controller\Admin;
+namespace my\oxid6ExampleModule2\Controller\Admin;
 
 /**
- * Class gripgateSliderMain.
+ * Class mySliderMain.
  */
 class MainController extends \OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController
 {
