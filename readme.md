@@ -2,9 +2,9 @@
 A simple and basic OXID 6 module.
 This is a clone of linslin/oxid6-example-module
 
-## Install via composer
-
-`composer require vendor/modulename:dev-master`
+## deploy
+Deploy this repo in your root shop folder where you find source and vendor folder
+deoploy it like  ./vendor/modulename
 
 ## Add to root composer.json
 For developing with a local copy which is not registered
@@ -18,3 +18,14 @@ For developing with a local copy which is not registered
     "require": {
         "vendor/modulename": "dev-master"
     },
+
+## Install via composer
+
+`composer require vendor/modulename:dev-master`
+
+
+## Helpfull documentation
+https://docs.oxid-esales.com/developer/en/6.0/modules/using_namespaces_in_modules.html#
+
+## Namespace creation
+https://docs.oxid-esales.com/developer/en/6.0/modules/using_namespaces_in_modules.html#using-namespaces-in-module-classes-that-do-not-extend-oxid-eshop-classes
