@@ -2,9 +2,9 @@
 A simple and basic OXID 6 module.
 This is a clone of linslin/oxid6-example-module
 
-## deploy
+## Deploy
 Deploy this repo in your root shop folder where you find source and vendor folder
-deoploy it like  ./vendor/modulename
+deoploy it like  ./youvendorname/modulename
 
 ## Add to root composer.json
 For developing with a local copy which is not registered
@@ -12,16 +12,16 @@ For developing with a local copy which is not registered
     "repositories": [
         {
             "type": "path",
-            "url": "./vendor/modulename"
+            "url": "./youvendorname/modulename"
         }
     ],
     "require": {
-        "vendor/modulename": "dev-master"
+        "youvendorname/modulename": "dev-master"
     },
 
 ## Install via composer
 
-`composer require vendor/modulename:dev-master`
+`composer require youvendorname/modulename:dev-master`
 
 
 ## Helpfull documentation
