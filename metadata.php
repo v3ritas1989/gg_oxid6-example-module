@@ -29,11 +29,13 @@ $aModule = array(
     'extend'      => array(
     ),
     'controllers'       => array(
-        'myexamplemodulemain' => \my\oxid6ExampleModule2\Controller\Admin\MainController::class,
+        'myexamplemodulemain' => \my\gg_oxid6ExampleModule\Controller\Admin\MainController::class,
     ),
-    'files'       => array(),
+    'files'       => array(
+
+    ),
     'templates'   => array(
-        'main.tpl' => 'my/gg_oxid6-example-module/views/admin/main.tpl'
+        'main.tpl' => 'my/gg_oxid6examplemodule/views/admin/main.tpl'
     ),
     'blocks'      => array(),
     'settings'    => array(),

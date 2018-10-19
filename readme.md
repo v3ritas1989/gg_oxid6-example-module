@@ -12,9 +12,9 @@ For developing with a local copy which is not registered
     "repositories": [
         {
             "type": "path",
-            "url": "./vendor/gg_oxid6-example-module"
+            "url": "./vendor/gg_oxid6examplemodule"
         }
     ],
     "require": {
-        "vendor/gg_oxid6-example-module": "dev-master"
+        "vendor/gg_oxid6examplemodule": "dev-master"
     },

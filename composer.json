@@ -1,5 +1,5 @@
 {
-    "name":        "my/gg_oxid6-example-module",
+    "name":        "my/gg_oxid6examplemodule",
     "description": "",
     "type":        "oxideshop-module",
     "keywords":    [
@@ -21,7 +21,7 @@
     ],
     "extra":       {
         "oxideshop": {
-            "target-directory": "./source/modules/my/gg_oxid6-example-module"
+            "target-directory": "./my/gg_oxid6examplemodule"
         }
     },
     "require":     {
@@ -29,7 +29,7 @@
     },
     "autoload":    {
         "psr-4": {
-            "my\\oxid6ExampleModule\\": "../../source/modules/my/gg_oxid6-example-module"
+            "my\\oxid6ExampleModule\\": "../../source/modules/my/gg_oxid6examplemodule"
         }
     }
 }
