@@ -29,7 +29,7 @@
     },
     "autoload":    {
         "psr-4": {
-            "my\\oxid6ExampleModule\\": "../../source/modules/my/gg_oxid6examplemodule"
+            "my\\oxid6ExampleModule\\": "../../../source/modules/my/gg_oxid6examplemodule"
         }
     }
 }
